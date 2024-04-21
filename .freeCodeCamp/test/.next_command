@@ -84,3 +84,30 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git init
 git add .
+git commit -m "Initial commit"
+git branch -M main
+__vsc_prompt_cmd_original
+git remote add origin https://github.com/xsammile/Build-a-Periodic-Table-Database/edit/main/Build%20a%20Periodic%20Table%20Database%2001
+git remote add origin https://github.com/xsammile/Build-a-Periodic-Table-Database.git
+git remote set-url origin https://github.com/xsammile/Build-a-Periodic-Table-Database.git
+git remote -v
+git push -u origin main
+git branch
+git branch main
+git checkout main
+git push -u origin main
+touch elements.sh
+git add
+git comgit commit -m "ADD elements.sh"
+git commit -m "ADD elements.sh"
+git add elements.sh
+git commit -m "ADD elements.sh"
+git branch
+git checkout main
+git push -u origin main
+git remote -v
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git pull origin main
+git add .
